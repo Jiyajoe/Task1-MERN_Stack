@@ -70,12 +70,12 @@ button {
     cursor: pointer;
 }
 
-button:first-child {
-    background-color: blue;
+button:first-of-type {
+    background-color: rgb(137, 137, 227);
     color: white;
 }
 
-button:last-child {
+button:last-of-type {
     background-color: red;
     color: white;
 }
